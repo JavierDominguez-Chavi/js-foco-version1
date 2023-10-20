@@ -32,7 +32,7 @@ function foco(){
             //Cambiar la imagen y el fondo
             img.setAttribute('src', 'images/foco-apagado.jpg');
             document.body.classList.remove('luz');
-            document.body.classList('oscuridad');
+            document.body.classList.add('oscuridad');
         }
     });
 
